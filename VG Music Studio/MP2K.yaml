@@ -965,10 +965,10 @@ B3SE_00:
   Name: "Sonic Advance 3 (USA)"
   SongTableOffsets: 0x0eb420
   SongTableSizes: 829
-  SampleRate: 9
+  SampleRate: 11
   ReverbType: "Normal"
-  Reverb: 0
-  Volume: 13
+  Reverb: 9
+  Volume: 10
   HasGoldenSunSynths: False
   HasPokemonCompression: False
   Playlists:
@@ -977,12 +977,12 @@ B3SE_00:
         1: "Title"
         2: "Menu"
         3: "Character Select"
-        4: "Sonic Factory"
+        4: "Sonic Factory" # drums are acting weird here
         5: "Options"
         6: "Options Alternate"
         7: "Chao Garden"
         8: "Intro"
-        10: "Route 99 Map"
+        10: "Route 99 Map" # drums sound off
         11: "Sunset Hill Map"
         12: "Ocean Base Map"
         13: "Toy Kindom Map"
@@ -990,7 +990,6 @@ B3SE_00:
         15: "Cyber Track Map"
         16: "Chaos Angel Map"
         17: "FinalZone Map"
-        18: "Intact Music 01"
         20: "Route 99 Act 1"
         21: "Route 99 Act 2"
         22: "Route 99 Act 3"
@@ -1020,7 +1019,6 @@ B3SE_00:
         55: "Final Boss (Pinch)"
         56: "Nonaggression (EX Boss)"
         57: "Nonaggression (EX Boss) (Pinch)"
-        58: "Intact Music 2 (Extended version of final boss completed)"
         59: "Demo" # remind me to figure out where this is used
         60: "EX Demo 1" # sounds like the intro, but there might be a difference
         61: "Super Sonic Cutscene (EX Demo 2)"
@@ -1039,6 +1037,9 @@ B3SE_00:
         75: "Drowning"
         76: "Mini-Game"
         79: "Bad Ending Again (Ending A)"
+    Unused:
+        18: "Intact Music 01"
+        58: "Intact Music 2 (Extended version of final boss completed)"
 B3SJ_00:
   Name: "Sonic Advance 3 (Japan)"
   SongTableOffsets: 0x0eb420
