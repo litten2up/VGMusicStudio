@@ -961,6 +961,92 @@ B24J_00:
 B24P_00:
   Name: "Pokémon Mystery Dungeon: Red Rescue Team (Europe)"
   Copy: "B24E_00"
+B3SE_00:
+  Name: "Sonic Advance 3 (USA)"
+  SongTableOffsets: 0x0eb420
+  SongTableSizes: 829
+  SampleRate: 9
+  ReverbType: "Normal"
+  Reverb: 0
+  Volume: 13
+  HasGoldenSunSynths: False
+  HasPokemonCompression: False
+  Playlists:
+    Music:
+        0: "Intro"
+        1: "Title"
+        2: "Menu"
+        3: "Character Select"
+        4: "Sonic Factory"
+        5: "Options"
+        6: "Options Alternate"
+        7: "Chao Garden"
+        8: "Intro"
+        10: "Route 99 Map"
+        11: "Sunset Hill Map"
+        12: "Ocean Base Map"
+        13: "Toy Kindom Map"
+        14: "Twinkle Snow Map"
+        15: "Cyber Track Map"
+        16: "Chaos Angel Map"
+        17: "FinalZone Map"
+        18: "Intact Music 01"
+        20: "Route 99 Act 1"
+        21: "Route 99 Act 2"
+        22: "Route 99 Act 3"
+        24: "Sunset Hill Act 1"
+        25: "Sunset Hill Act 2"
+        26: "Sunset Hill Act 3"
+        28: "Ocean Base Act 1"
+        29: "Ocean Base Act 2"
+        30: "Ocean Base Act 3"
+        32: "Toy Kindom Act 1"
+        33: "Toy Kindom Act 2"
+        34: "Toy Kindom Act 3"
+        36: "Twinkle Snow Act 1"
+        37: "Twinkle Snow Act 2"
+        38: "Twinkle Snow Act 3"
+        40: "Cyber Track Act 1"
+        41: "Cyber Track Act 2"
+        42: "Cyber Track Act 3"
+        44: "Chaos Angel Act 1"
+        45: "Chaos Angel Act 2"
+        46: "Chaos Angel Act 3"
+        50: "Eggman Attacks!"
+        51: "Eggman Attacks! (Pinch)"
+        52: "Chaos Angel Boss"
+        53: "Chaos Angel Boss (Pinch)"
+        54: "Final Boss"
+        55: "Final Boss (Pinch)"
+        56: "Nonaggression (EX Boss)"
+        57: "Nonaggression (EX Boss) (Pinch)"
+        58: "Intact Music 2 (Extended version of final boss completed)"
+        59: "Demo" # remind me to figure out where this is used
+        60: "EX Demo 1" # sounds like the intro, but there might be a difference
+        61: "Super Sonic Cutscene (EX Demo 2)"
+        62: "Bad Ending (Ending A)"
+        63: "Good Ending (Ending B)"
+        64: "Staff Roll"
+        65: "Special Stage"
+        66: "Special Stage Won (Special Stage Result 1)"
+        67: "Special Stage Loss (Special Stage Result 2)"
+        68: "Multiplayer Connection Screen (VS-BGM 1)"
+        69: "Multiplayer Level Select (VS-BGM 2)"
+        70: "VS-BGM 3" # dont know where this is used
+        71: "Time Attack"
+        72: "Time Attack Retry"
+        73: "Invincable"
+        75: "Drowning"
+        76: "Mini-Game"
+        79: "Bad Ending Again (Ending A)"
+B3SJ_00:
+  Name: "Sonic Advance 3 (Japan)"
+  SongTableOffsets: 0x0eb420
+  Copy: "B3SE_00"
+B3SP_00:
+  Name: "Sonic Advance 3 (Europe)"
+  SongTableOffsets: 0x0eb420
+  Copy: "B3SE_00"
 BE8E_00:
   Name: "Fire Emblem: The Sacred Stones (USA)"
   SongTableOffsets: 0x224470
